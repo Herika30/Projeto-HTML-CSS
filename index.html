@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <h1 id="título">Cadastro de Devs</h1>
+    <h2 id="subtexto">Complete suas informações</h2>
+    <form>
+        <label for="campo-nome">Nome</label>
+        <input id="campo-nome" type="text" placeholder="Digite seu nome" required>&nbsp;&nbsp;
+
+        <label for="campo-sobrenome">Sobrenome</label>
+        <input id="campo-sobrenome" type="text" placeholder="Digite seu sobrenome" required><br><br>
+
+        <label for="campo-email">Email</label>
+        <input id="campo-email" type="email" placeholder="Digite seu e-mail" required><br>
+
+        <h2>De qual lado da aplicação você desenvolve?</h2>
+
+        <input id="campo-front" type="radio" name="aplicação" value="Front-end">
+        <label for="campo-front">Front-end</label><br>
+
+        <input id="campo-back" type="radio" name="aplicação" value="Back-end">
+        <label for="campo-back">Back-end</label><br>
+
+        <input id="campo-full" type="radio" name="aplicação" value="Fullstack">
+        <label for="campo-full">Fullstack</label><br>
+
+        <h2>Senioridade</h2>
+        <select>
+            <option select disabled value="">Selecione</option>
+            <option value="Júnior">Júnior</option>
+            <option value="Pleno">Pleno</option>
+            <option value="Sênior">Sênior</option>
+            <option value="Especialista">Especialista</option>
+        </select>
+
+        <h2>Selecione as tecnologias que utiliza:</h2>
+        <input id="item1" type="checkbox" name="item1" value="HTML">
+        <label for="item1">HTML</label>
+
+        <input id="item2" type="checkbox" name="item2" value="CSS">
+        <label for="item2">CSS</label>
+
+        <input id="item3" type="checkbox" name="item3" value="JavaScript">
+        <label for="item3">JavaScript</label>
+
+        <input id="item4" type="checkbox" name="item4" value="PHP">
+        <label for="item4">PHP</label>
+
+        <input id="item5" type="checkbox" name="item5" value="C#">
+        <label for="item5">Python</label>
+
+        <input id="item6" type="checkbox" name="item6" value="Java">
+        <label for="item6">Java</label>
+
+
+        <h2>Conte um pouco mais da sua experiência:</h2>
+
+        <textarea name="mensagem" rows="15" cols="55" placeholder="Digite sua experiência"></textarea><br>
+
+        <input type="submit" value="Enviar Formulário"><br><br>
+
+
+
+    </form>
+
+
+</body>
+
+</html>
