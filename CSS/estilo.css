@@ -12,18 +12,19 @@
 
 /* Elemento de tag <body> */
 body {
-    background-image: url("../IMG/OIP.jpg");
+    background: plum;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
-    font-family: 'Dancing Script', cursive;
+    font-family: font-family: 'Bungee Shade', cursive;
+
 }
 
 /* Elementos com o ID "titulo" */
 #titulo {
     font-size: 50px;
-    padding-top: 80px;
+    padding-top: 20px;
 }
 
 /* Elementos com o ID "subtitulo" */
@@ -50,7 +51,7 @@ body {
 #botao:hover {
     background: #d06aff;
     padding: 12px;
-    border: 2px solid blue;
+    border: 2px solid #d06aff;
 }
 
 /* Elementos com ID "botao" e de tag <select> */
