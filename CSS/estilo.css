@@ -13,12 +13,8 @@
 /* Elemento de tag <body> */
 body {
     background: plum;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     text-align: center;
-    font-family: font-family: 'Bungee Shade', cursive;
-
+    font-family: font-family:'Bungee Shade', cursive;
 }
 
 /* Elementos com o ID "titulo" */
