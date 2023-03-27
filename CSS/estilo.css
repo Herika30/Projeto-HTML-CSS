@@ -1,5 +1,7 @@
+/* Importação de fontes */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* Todos os elementos da página */
 * {
     box-sizing: border-box;
 }
@@ -8,6 +10,7 @@
     margin: 0;
 }
 
+/* Elemento de tag <body> */
 body {
     background-image: url("../IMG/OIP.jpg");
     background-repeat: no-repeat;
@@ -17,25 +20,41 @@ body {
     font-family: 'Dancing Script', cursive;
 }
 
-h1 {
+/* Elementos com o ID "titulo" */
+#titulo {
     font-size: 50px;
     padding-top: 80px;
 }
 
+/* Elementos com o ID "subtitulo" */
+#subtitulo {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+/* Elementos de classe "borda" */
 .borda {
     border: 3px solid #d06aff;
     border-radius: 4px;
     padding: 4px;
 }
 
+/* Elementos com o ID "botao" */
 #botao {
     border-radius: 5px;
     padding: 10px;
     background: #ff81ff;
 }
 
+/* Elemento com ID "botao" com o estado da pseudoclasse "hover" */
 #botao:hover {
     background: #d06aff;
     padding: 12px;
     border: 2px solid blue;
+}
+
+/* Elementos com ID "botao" e de tag <select> */
+#botao,
+select {
+    cursor: pointer;
 }
